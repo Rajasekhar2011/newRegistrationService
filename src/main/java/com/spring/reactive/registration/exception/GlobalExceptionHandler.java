@@ -8,7 +8,7 @@ import java.util.Map;
 
 @Component
 public class GlobalExceptionHandler  extends DefaultErrorAttributes {
-
+/*
     @Override
     public Map<String, Object> getErrorAttributes(ServerRequest request, boolean includeStackTrace) {
         Map<String, Object> map = super.getErrorAttributes(request, includeStackTrace);
@@ -28,5 +28,5 @@ public class GlobalExceptionHandler  extends DefaultErrorAttributes {
         map.put("status", "500");
         map.put("error", " System Error ");
         return map;
-    }
+    }*/
 }
